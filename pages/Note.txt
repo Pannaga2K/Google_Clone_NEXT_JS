@@ -1,0 +1,10 @@
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+npx tailwindcss init -p                                                     // ADD CONFIG
+    - tailwindcss
+npm install @tailwindcss/line-clamp
+    - tailwindcss/line-clamp                                                // TRUNCATE LINES
+
+
+
+
+JIT                                                                  --->   JUST-IN-TIME

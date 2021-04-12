@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link {
+    @apply hover:text-white cursor-pointer;
+  }
+
+  .button {
+    @apply bg-[#1f1f1f] text-sm text-gray-300 m-3 h-10 w-36 rounded-sm focus:outline-none ring-gray-100 hover:shadow-lg;
+  }
+
+}
